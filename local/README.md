@@ -146,29 +146,7 @@ There is a `justfile` to streamline common tasks for local development using [Ju
 
 ### Installation
 
-Install Just using one of these methods:
-
-**macOS (Homebrew):**
-```bash
-brew install just
-```
-
-**Linux (most distributions):**
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/local/bin
-```
-
-**Windows (Chocolatey):**
-```powershell
-choco install just
-```
-
-**Cargo (all platforms):**
-```bash
-cargo install just
-```
-
-For other installation methods, see the [Just installation guide](https://github.com/casey/just#installation).
+Install Just, see the [Just installation guide](https://github.com/casey/just#installation).
 
 ### Available Commands
 
@@ -190,8 +168,8 @@ Execute `just --list` to see all available commands. Key commands include:
 Examples:
 ```bash
   just start phw-to-mpi
-  just send test_message.hl7
-  just send test_message.hl7 2576
+  just send phw-to-mpi.sample.hl7
+  just send phw-to-mpi.sample.hl7 2576
   just logs mpi-hl7-mock-receiver
   just stop
   just build phw-to-mpi

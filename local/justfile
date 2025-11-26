@@ -6,7 +6,7 @@
 #
 # Quick Start Guide:
 # -----------------
-# 1. List all available commands:    just --list
+# 1. List all available commands:     just --list
 # 2. Install dependencies:            just install
 # 3. Generate secrets:                just secrets
 # 4. Build a profile:                 just build phw-to-mpi
@@ -135,7 +135,7 @@ python := "python3"
     echo ""
     echo "✅ Message sent!"
     echo "💡 Check logs with: just logs <service-name>"
-    echo "💡 Available ports:"
+    echo "💡 Profile specific ports:"
     echo "   - 2575 (PHW)"
     echo "   - 2577 (PARIS)"
     echo "   - 2579 (Chemo)"
